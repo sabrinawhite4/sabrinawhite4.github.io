@@ -39,8 +39,9 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: 350px;
     width: 60vw;
+    margin: 25px;
+    padding: 0;
   }
   #contact-icons {
     font-size: 75px;
