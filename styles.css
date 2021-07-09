@@ -1,17 +1,17 @@
 body {
-    background:rgb(216, 216, 233,0.5);
+    background:rgb(216, 216, 233,0.9);
     font-family: 'Gill Sans';
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 55vw;
+    width: 80vw;
     margin: 0 auto;
   }
   img {
     max-width: 300px;
-    border: solid 5px black;
+    border: solid 3px black;
     border-radius: 60px;
   }
   #about-me-container {
@@ -20,13 +20,13 @@ body {
       align-items: center;
   }
   h1 {
-    color:black;
-    height:10vh;
-    width: 150vw;
-
+    color: azure;
+    font-weight: 300;
   }
   h2 {
     text-align: center;
+    font-weight: 400;
+    margin-bottom: 5px;
   }
   #about-me {
       height: 200px;
@@ -39,8 +39,8 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: 300px;
-    
+    height: 350px;
+    width: 60vw;
   }
   #contact-icons {
     font-size: 75px;
@@ -56,11 +56,119 @@ body {
     height: 60px;
     width: 40vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;  
   }
   .button-style {
     width: 150px;
+    border: solid black 2px;
+    height:60px;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: black;
+    color: azure;
   }
   #project-buttons :hover {
     background-color: #61dbfb;
+    color: black;
+  }
+p {
+  font-weight: 300;
+}
+#more-skills {
+  font-size: 125%;
+  display: table;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 50vw;
+}
+ul { display:inline-block; padding:0; text-align:center }
+li { display:inline }
+li a { white-space:nowrap }
+li:after { content:" "; letter-spacing:1em; background:center center no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAABl0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC4xMkMEa+wAAAAnSURBVBhXY/Dz89MA4sNA/B9Ka4AEYQIwfBgkiCwAxjhVopnppwEApxQqhnyQ+VkAAAAASUVORK5CYII=); }
+h3 {
+  font-weight: 400;
+  font-size: 140%;
+}
+.icon-box a {
+  text-decoration: none;
+}
+.icon-box a:hover {
+  border: solid 1px rgba(0, 0, 0, 0.61) ;
+}
+hr {
+  width: 80%;
+  height: 1px;
+  background-color: black;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  
+  }
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.87);
+  align-items: center;
+  margin-bottom: 60px;
+
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  width: 30vw;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+.name-container {
+  width: 30vw;
+  height: 10vh;
+}
+.nav-menu a {
+  padding: 20px;
+  font-size: 23px;
+  color: azure;
+  font-weight: 330;
+  text-decoration: none;
+}
+.nav-menu a:hover {
+  text-decoration: underline;
+  font-weight: 400;
+
+}
+html {
+  background-color:whitesmoke;
+  background-image: url("https://epod.usra.edu/.a/6a0105371bb32c970b0133eee7d763970b-pi");
+  background-position: 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#project-description p {
+  font-weight: 350;
+  font-size: 120%;
+  margin-top: 5px;
+
+}
+#project-title {
+  text-decoration: underline black;
+}
+.devicon-react-original-wordmark {
+  background-color: rgba(0, 0, 0, 0.342);
+}
+.devicon-javascript-plain {
+  background-color: black;
+}
+.devicon-python-plain-wordmark {
+  background-color: black;
+}
+  footer {
+    font-size: 120%;
   }

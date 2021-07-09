@@ -7,28 +7,45 @@
     <title>Sabrina White</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
+
+<div id= "header">
+    <!-- <div class = "wrapper-div"> -->
+        <div class = "name-container">
+            <h1>Sabrina White</h1>
+        </div>
+        <div class = "nav-menu">
+            <a href = "#about-me-container">About</a>
+            <a href = "#skill-icons">Skills</a>
+            <a href = "#projects">Projects</a>
+            <a href = "#contact-icons">Contact</a>
+        </div>
+    <!-- </div> -->
+    </div>
 <body>
-    <h1> Welcome to my portfolio!</h1>
+    
     <h2>About Me</h2>
+    <hr>
     <div id= "about-me-container">
         <img src = "sabrina.jpeg"> </img>
         <p id = "about-me"> Hello! My name is Sabrina White. I am a 23 year-old Full Stack Web Developer, with a passion for Javascript and Frontend and Backend development. I'm outgoing, and hardworking and never one to back down from a challenge. <br><br>
         When I'm not coding I'm ballroom dancing, eating lots of my moms Brazilian food, and enjoying time with friends and family! I love puppies and enjoy being outdoors whether that's at the beach or hiking in the mountains.</p>
     </div>
     <h2>Skills</h2>
+    <hr>
     <div id= "skill-icons">
         <div class= "icon-box">
             <i class="devicon-javascript-plain colored"></i>
             <figcaption id = "icon-title">Javascript</figcaption>
         </div>
         <div class = "icon-box">
-        <i class="devicon-html5-plain-wordmark colored"></i>
-        <figcaption id = "icon-title">HTML</figcaption>
+            <i class="devicon-html5-plain-wordmark colored"></i>
+            <figcaption id = "icon-title">HTML</figcaption>
         </div>
         <div class = "icon-box">
-        <i class="devicon-css3-plain-wordmark colored"></i>
-        <figcaption id = "icon-title">CSS</figcaption>
+            <i class="devicon-css3-plain-wordmark colored"></i>
+            <figcaption id = "icon-title">CSS</figcaption>
         </div>
         <div class = "icon-box">   
             <i class="devicon-postgresql-plain-wordmark colored"></i>
@@ -78,28 +95,61 @@
             <i class="devicon-vuejs-plain colored"></i>
             <figcaption id = "icon-title">Vue</figcaption>
         </div>
+        <div class = "icon-box">
+            <i class="iconify" data-icon="logos-postman-icon" data-inline="false"></i>
+            <figcaption id = "icon-title">Postman</figcaption>
+        </div>
+        <div class = "icon-box">
+            <i class="iconify" data-icon="logos-puppeteer" data-inline="false"></i>
+            <figcaption id = "icon-title">Puppeteer</figcaption>
+        </div>
     </div>
-
-    <h3> Also have experience with: Axios, API, 3rd Party API, QA, Crytography, Cybersecurity, Web Automation, Selenium, Puppeteer, Playwright, Postman, Rollbar, UX/UI, Vuex, Stripe API </h3>
+    <h2>More Skills</h2>
+    <hr>
+    <div id = "more-skills">
+        <ul>
+            <li>Axios</li>
+            <li>APIs</li>
+            <li>QA</li>
+            <li>Cryptography</li>
+            <li>Cybersecurity</li>
+            <li>Web Automation</li>
+            <li>Selenium</li>
+            <li>Playwright</li>
+            <li>Rollbar</li>
+            <li> UX/UI</li>
+            <li>Vuex</li>
+            <li>Stripe</li>
+        </ul>
+    </div>
 
     <h2>Projects</h2>
-    <h3> O What Dog Is This?</h3>
+    <div id= "projects"></div>
+    <hr>
+    <h3 id = "project-title"> O What Dog Is This?</h3>
+    <div id = 'project-description'>
+        <p> + Web-app where you can upload a picture of a dog and get a predicted breed + </p>
+        <p> + Hosted on Heroku +</p>
+        <p>Javascript | HTML | CSS | Tensorflow | Heroku | Express | Nodejs </p>
+        <li> </li>
+    </div>
     <div id = "project-buttons">
-        <button class = "button-style">Project Repository</button>
-        <button class = "button-style"> Live Site</button>
-        <button class = "button-style">Web Demo</button>
+        <a class = "button-style" href = "https://github.com/sabrinawhite4/the-dog-zone-project" target = "_blank">Project Repository</a>
+        <a class = "button-style" href = "https://the-dog-zone.herokuapp.com/" target = "_blank"> Live Site</a>
+        <a class = "button-style" href = "https://vimeo.com/manage/videos/571866202" target = "_blank">Web Demo</a>
     </div>
     <h2>Contact</h2>
-    <a href = "mailto: sabrinawhite4@me.com"> Email: sabrinawhite4@me.com</a>
+    <div id = "contacts"></div>
+    <hr>
+    <a class = "email-link" href = "mailto: sabrinawhite4@me.com"> Email: sabrinawhite4@me.com</a>
     <div id= "contact-icons">
         <div class = "icon-box">
-            <i class="devicon-linkedin-plain-wordmark colored"></i>
-            <figcaption id = 'icon-title'>LinkedIn</figcaption>
+            <a href="https://www.linkedin.com/in/sabrina-white-821a67a7" target = "_blank"><i class="devicon-linkedin-plain-wordmark colored"></i></a>
         </div>
         <div class = "icon-box">
-            <i class="devicon-github-original colored"></i>
-            <figcaption id = 'icon-title'>Github</figcaption>
+            <a href="https://github.com/sabrinawhite4" target = "_blank"><i class="devicon-github-original colored"></i></a>
         </div>
+    </div>
 </body>
-
+<footer><p>&copy; Sabrina White 2021</p></footer>
 </html>
