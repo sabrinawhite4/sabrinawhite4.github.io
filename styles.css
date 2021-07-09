@@ -130,8 +130,12 @@ hr {
   align-items: center;
 }
 .name-container {
+  display: flex;
+  flex-direction: row;
   width: 30vw;
   height: 10vh;
+  justify-content: center;
+  align-items: center;
 }
 .nav-menu a {
   padding: 20px;
